@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="120dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_plcontinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Login to Continue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_emaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="48dp"
+        />
+
+    <EditText
+        android:id="@+id/et_passlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_reglink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account ? register here"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
